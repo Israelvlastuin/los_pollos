@@ -18,6 +18,12 @@ header {
     padding: 1rem;
     text-align: center;
 }
+.botoes-header{
+	display: flex;
+    justify-content: center; 
+    gap: 10px;
+	
+}
 
 nav ul {
     list-style: none;
