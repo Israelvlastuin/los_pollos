@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Funcionários</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+<header>
+    <h1>Gerenciar Funcionários</h1>
+    <a href="index.html" id="logout">Logout</a>
+</header>
+
+<div class="container">
+
+    <h2>Cadastrar Funcionário</h2>
+    <form>
+        <input type="text" placeholder="Nome">
+        <select>
+            <option value="">Tipo</option>
+            <option>Gerente</option>
+            <option>Garçom</option>
+            <option>Cozinheiro</option>
+        </select>
+        <input type="password" placeholder="Senha">
+        <button>Cadastrar</button>
+    </form>
+
+    <h2>Editar Funcionário</h2>
+    <form>
+        <input type="number" placeholder="ID do funcionário">
+        <input type="text" placeholder="Novo nome">
+        <select>
+            <option value="">Novo tipo</option>
+            <option>Gerente</option>
+            <option>Garçom</option>
+            <option>Cozinheiro</option>
+        </select>
+        <input type="password" placeholder="Nova senha">
+        <button>Salvar Alterações</button>
+    </form>
+
+    <h2>Excluir Funcionário</h2>
+    <form>
+        <input type="number" placeholder="ID do funcionário">
+        <button>Excluir</button>
+    </form>
+
+    <h2>Pesquisar Funcionário</h2>
+    <form>
+        <input type="text" placeholder="Nome ou ID">
+        <button>Pesquisar</button>
+    </form>
+
+</div>
+</body>
+<style>
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+
+</style>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+<link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+<header>
+    <h1>Gerenciar Pedidos</h1>
+    <a href="index.html" id="logout">Logout</a>
+</header>
+
+<div class="container">
+
+    <h2>Cadastrar Pedido</h2>
+    <form>
+        <input type="number" placeholder="ID do prato">
+        <input type="number" step="0.01" placeholder="Preço">
+        <input type="number" placeholder="ID da comanda">
+        <input type="number" placeholder="Mesa">
+        <button>Cadastrar</button>
+    </form>
+
+    <h2>Editar Pedido</h2>
+    <form>
+        <input type="number" placeholder="ID do pedido">
+        <input type="number" placeholder="Novo ID do prato">
+        <input type="number" step="0.01" placeholder="Novo preço">
+        <input type="number" placeholder="Novo ID da comanda">
+        <input type="number" placeholder="Nova mesa">
+        <button>Salvar Alterações</button>
+    </form>
+
+    <h2>Excluir Pedido</h2>
+    <form>
+        <input type="number" placeholder="ID do pedido">
+        <button>Excluir</button>
+    </form>
+
+    <h2>Pesquisar Pedido</h2>
+    <form>
+        <input type="text" placeholder="ID, mesa, prato ou comanda">
+        <button>Pesquisar</button>
+    </form>
+
+</div>
+</body>
+<style>
+    #logout{
+        text-decoration: none;
+        color: white
+    }
+   
+
+
+
+</style>
+</html>

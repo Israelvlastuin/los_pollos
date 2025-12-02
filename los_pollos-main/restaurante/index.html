@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Restaurante</h1>
+        <nav>
+            <ul>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#pedido">Fazer Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cardapio">
+            <h2>Cardápio Eletrônico</h2>
+            <p>Escolha seus pratos. (Acesso público)</p>
+            <div class="cardapio-container">
+                <!-- Pratos carregados dinamicamente via JS -->
+            </div>
+        </section>
+
+        <section id="pedido">
+            <h2>Fazer Pedido</h2>
+            <p>Realize seu pedido aqui. (Acesso público)</p>
+            <form id="form-pedido">
+                <label for="mesa">Mesa:</label>
+                <input type="number" id="mesa" placeholder="Número da mesa" required>
+                <label for="prato">Prato:</label>
+                <select id="prato" required>
+                    <!-- Opções carregadas dinamicamente -->
+                </select>
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sistema de Restaurante. <a href="login.html">Acesso Funcionários</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
